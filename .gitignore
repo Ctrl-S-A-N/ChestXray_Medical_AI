@@ -1,0 +1,14 @@
+# Ignore heavy models
+models/*.h5
+
+# Ignore local patient database and generated reports
+Database/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
