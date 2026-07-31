@@ -12,3 +12,5 @@ __pycache__/
 # Ignore virtual environments
 venv/
 env/
+tf_env/
+requirements_utf8.txt

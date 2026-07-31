@@ -7,9 +7,9 @@ WORKDIR /app
 # Copy the requirements file first to leverage Docker cache
 COPY requirements.txt .
 
-# Install system dependencies needed for OpenCV
+# Install system dependencies needed for OpenCV (Updated for newest Linux versions)
 RUN apt-get update && apt-get install -y \
-    libgl1-mesa-glx \
+    libgl1 \
     libglib2.0-0 \
     && rm -rf /var/lib/apt/lists/*
 
