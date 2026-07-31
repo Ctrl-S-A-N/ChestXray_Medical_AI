@@ -1,8 +1,6 @@
-# Ignore heavy models
-models/*.h5
-
-# Ignore local patient database and generated reports
+# Local patient database and generated reports
 Database/
+
 
 # Ignore Python cache
 __pycache__/
