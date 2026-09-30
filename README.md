@@ -1,4 +1,4 @@
-# 🫁 QubitSanyam Medical AI: Automated X-Ray Triage System
+# 🫁 Chest Xray Medical AI: Automated X-Ray Triage System
 
 An enterprise-grade, full-stack Deep Learning application designed to perform automated triage and clinical decision support on Chest Radiographs. Featuring a sleek **Skeuomorphic Console Design**, **2-Page System Architecture**, **Supabase Cloud Synchronization**, and **Render 1-Click Deployment**, this system analyzes NIH Chest X-Ray data to detect 14 distinct pulmonary pathologies and generates interpretable Explainable AI (XAI) visualizations.
 
